@@ -4,14 +4,14 @@
 
 Implement a function that generates **all permutations** of a given slice of integers:
 
-' go
+``` go
 package main
 
 func permutations(nums []int) [][]int {
 // Your code here
 return nil
 }
-'
+```
 
 ### Requirements
 
@@ -38,7 +38,7 @@ return nil
 
 ### Example Usage
 
-' go
+``` go
 package main
 
 import "fmt"
@@ -48,7 +48,7 @@ data := []int{1, 2, 3}
 perms := permutations(data)
 fmt.Println("Permutations of", data, "are:", perms)
 }
-'
+```
 
 ### Hints
 
