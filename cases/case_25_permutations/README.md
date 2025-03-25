@@ -8,8 +8,8 @@ Implement a function that generates **all permutations** of a given slice of int
 package main
 
 func permutations(nums []int) [][]int {
-// Your code here
-return nil
+    // Your code here
+    return nil
 }
 ```
 
@@ -44,9 +44,9 @@ package main
 import "fmt"
 
 func main() {
-data := []int{1, 2, 3}
-perms := permutations(data)
-fmt.Println("Permutations of", data, "are:", perms)
+    data := []int{1, 2, 3}
+    perms := permutations(data)
+    fmt.Println("Permutations of", data, "are:", perms)
 }
 ```
 
